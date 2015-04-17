@@ -10,3 +10,4 @@
 		* [用Markdown写一本自己的开源电子书](workflow/gitbook.md)
 	* [PyCharm使用指南](workflow/learning_pycharm.md)
 	* [Sublime Text使用指南](workflow/learning_sublime_text.md)
+	* [tmux使用指南](workflow/tmux.md)
