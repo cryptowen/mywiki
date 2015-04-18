@@ -18,7 +18,13 @@
     ![iTerm profile](http://wenchao-img.qiniudn.com/2917474f0ff4e1df8dfc4377858c1b5b.png)
     使用快捷键打开该profile，自动ssh到服务器，发送命令`tmux -CC a`打开tmux session。
     使用完后回到打开tmux的窗口，按esc退出，或使用快捷键`ctrl + cmd + shift + d`退出。
-    ![quit iterm tmu mode](http://wenchao-img.qiniudn.com/33f4b4577190fc0df7c1efce3fd767c7.png)
+    ![quit iterm tmux mode](http://wenchao-img.qiniudn.com/33f4b4577190fc0df7c1efce3fd767c7.png)
+
+## 常见问题
+- [打开多个tmux mode窗口](https://code.google.com/p/iterm2/issues/detail?id=1746)。现在的iterm正式版只能支持打开一个，可以升级到最新开发版解决,
+[下载地址](https://iterm2.com/nightly/latest)。
+- centos无法使用iterm mode。centos使用yum安装的tmux版本是1.6（可以使用`tmux -V`查看），iterm mode需要tmux1.8版本以上的支持。需要先杀掉当前开启的tmux session，然后使用命令`yun erase tmux`删除旧版本。再参考安装章节的手动安装方法。
+
 
 
 [1]: http://foocoder.com/blog/zhong-duan-huan-jing-zhi-tmux.html/
