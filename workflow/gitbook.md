@@ -51,9 +51,9 @@ Gitbook支持的特性如下，简要翻译几个：
 1. 新建章节和节
 
     ![新建章节](http://wenchao-img.qiniudn.com/44137-dc07f3c8fa0bcacd.png)
-    
+
     ![新建节](http://wenchao-img.qiniudn.com/44137-a04d9173618843de.png)
-    
+
     在目录区双击你要编辑的章节即可编辑对应章节。
 
 1. 点击右上角有添加插件、新建分支、编辑书籍封面等功能。
@@ -65,6 +65,13 @@ Gitbook支持的特性如下，简要翻译几个：
     ![测试电子书页面](http://wenchao-img.qiniudn.com/44137-ab0fe3601169c7ae.png)
 
 1. 你所有的改动会都会被保存，在离开写作区后，gitbook会自动构建，生成最新版的网站和PDF、Mobi、ePub电子书，返回你的个人主页即可查看。更详细的使用方法请参见[官方文档][6]。
+
+## 插件
+gitbook插件[首页][10], 这里可以查看所有插件。我用了的几个有：
+
+- [多说][7]，在书中内置评论
+- [gtoc][8]，在每页的右边实现目录树功能
+- [google analytics][9], 谷歌分析插件，可以查看你的页面访问量等信息
 
 ## 参考网站
 
@@ -82,3 +89,7 @@ Gitbook支持的特性如下，简要翻译几个：
 [4]: http://yeasy.gitbooks.io/docker_practice/
 [5]: https://www.gitbook.com/explore
 [6]: http://help.gitbook.io/index.html
+[7]: http://plugins.gitbook.com/plugin/duoshuo
+[8]: http://plugins.gitbook.com/plugin/gtoc
+[9]: http://plugins.gitbook.com/plugin/ga
+[10]: http://plugins.gitbook.com/
