@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        "duoshuo",
+        "gtoc"
+    ],
+    "pluginsConfig": {
+        "duoshuo": {
+            "short_name": "huwenchao",
+            "theme": "default"
+        }
+    }
+}
