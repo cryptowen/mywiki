@@ -8,7 +8,7 @@
 
 ## 安装
 - mac、ubuntu、centos：用homebrew，yum或apt-get安装
-- [centos手动安装][5]
+- [centos手动安装][5], [手动安装脚本][6]
 
 ## 工作流
 1. 登陆服务器(`ssh xxx`)，创建tmux session(`tmux`)，如要指定名字可以使用(`tmux -S name`).
@@ -32,3 +32,4 @@
 [3]: https://pragprog.com/book/bhtmux/tmux
 [4]: https://www.youtube.com/watch?v=JXwS7z6Dqic
 [5]: http://spenserj.com/blog/2013/11/11/installing-tmux-in-centos/
+[6]: https://gist.github.com/yely/b1e4e57f629ca0a37931
