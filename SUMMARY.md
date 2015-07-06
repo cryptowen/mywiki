@@ -1,5 +1,3 @@
-# 无关风月的个人学习笔记
-
 - 工作流
 	- [Mac开发工具链](workflow/mac_develop_tools.md)
 	- [Git工作流](workflow/git.md)
@@ -11,4 +9,5 @@
 	- [PyCharm使用指南](workflow/learning_pycharm.md)
 	- [Sublime Text使用指南](workflow/learning_sublime_text.md)
 	- [tmux使用指南](workflow/tmux.md)
+	- [新环境设置备忘](workflow/new_env.md)
 - [草稿](draft.md)
