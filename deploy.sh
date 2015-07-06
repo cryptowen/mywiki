@@ -2,7 +2,8 @@
 
 path='/tmp/_book'
 rm -rf $path
-gitbook build -o $path
+gitbook build .
+cp _book -r /tmp/_book
 cd $path
 git init
 git add -A
