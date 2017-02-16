@@ -46,6 +46,9 @@
 - [七牛云存储新手引导][2]
 - [七牛云存储自动同步][3]
 
+![](/media/14872483453117.jpg)
+
+
 [1]: http://www.jianshu.com/p/2dd051b0b87c
 [2]: https://portal.qiniu.com/tutorial/index
 [3]: http://developer.qiniu.com/docs/v6/tools/qrsbox.html
@@ -55,3 +58,4 @@
 [7]: https://portal.qiniu.com/signup?code=3lda4a1zc6q8i
 [8]: http://developer.qiniu.com/docs/v6/tools/qrsbox.html
 [Mac 截图解决方案]: http://zh.wikihow.com/%E5%9C%A8Mac-OS-X%E4%B8%8A%E6%88%AA%E5%8F%96%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE
+
