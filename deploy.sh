@@ -1,5 +1,5 @@
 #!/bin/sh
-cp SUMMARY.md README.md
+
 gitbook build .
 deploy_dir=book_deploy
 if [ ! -d "$deploy_dir" ]; then
