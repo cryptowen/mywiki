@@ -7,3 +7,7 @@
 - 压力测试
     - [工具总结](http://www.yeolar.com/note/2012/11/24/web-bench-test/)
     - [Mac下使用Web服务器性能/压力测试工具webbench、ab、siege](http://segmentfault.com/a/1190000002491609)
+
+![](/media/14872457657877.jpg)
+
+

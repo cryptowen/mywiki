@@ -11,5 +11,3 @@ git add *
 git commit -m "update on `date '+%Y-%m-%d %H:%M:%S'`"
 git remote add github git@github.com:yely/mywiki.git
 git push github master:gh-pages --force
-git remote add gitcafe git@gitcafe.com:huwenchao/mywiki.git
-git push gitcafe master:gitcafe-pages --force
