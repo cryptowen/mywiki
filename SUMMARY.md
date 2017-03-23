@@ -11,4 +11,5 @@
 	- [Sublime Text使用指南](workflow/learning_sublime_text.md)
 	- [tmux使用指南](workflow/tmux.md)
 	- [新环境设置备忘](workflow/new_env.md)
+- [Python](drafts/python.md)
 - [草稿](draft.md)
