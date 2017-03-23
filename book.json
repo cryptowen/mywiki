@@ -1,14 +1,9 @@
 {
     "plugins": [
-        "duoshuo",
         "gtoc",
         "ga"
     ],
     "pluginsConfig": {
-        "duoshuo": {
-            "short_name": "huwenchao",
-            "theme": "default"
-        },
         "ga": {
             "token": "UA-49755189-1"
         }

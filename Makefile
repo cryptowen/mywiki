@@ -3,3 +3,8 @@ serve:
 
 deploy:
 	sh deploy.sh
+
+update:
+	git commit -a -m 'update'
+	git push
+	make deploy
