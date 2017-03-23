@@ -5,6 +5,6 @@ deploy:
 	sh deploy.sh
 
 update:
+	git commit -a -m 'update'
+	git push
 	make deploy
-	gcam 'update'
-	gp
