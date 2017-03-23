@@ -3,3 +3,8 @@ serve:
 
 deploy:
 	sh deploy.sh
+
+update:
+	make deploy
+	gcam 'update'
+	gp
