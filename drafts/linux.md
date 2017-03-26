@@ -1,5 +1,17 @@
 # Linux
 
+## centos crontab 时区问题
+
+`tzselect` 可以交互式调整系统时区。
+但是调整完后 crontab 依然是按照默认时区执行的任务。
+
+解决方案：`crontab -e` 打开配置，在最上面加上一行 `TZ='Asia/Shanghai'`
+
+测试方法：
+- 查看 crontab 日志： `tail -F /var/log/cron`
+- 在 crontab 中加上 `* * * * * echo $TZ `date` >> /tmp/tzout.gmt`，
+然后 tail 该日志查看结果
+
 ## 自定义系统service
 我们可以通过自己编写脚本来实现系统的service命令控制启动。
 此处以ping百度的命令作为示例。
